@@ -1,0 +1,28 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+AddReg    = Scheme.Reg
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SchemeName%",,"%1%\%Arrow%,%1%\%Help%,%1%\%AppStarting%,%1%\%Wait%,%1%\%Crosshair%,%1%\%IBeam%,%1%\%NWPen%,%1%\%No%,%1%\%SizeNS%,%1%\%SizeWE%,%1%\%SizeNWSE%,%1%\%SizeNESW%,%1%\%SizeALL%,%1%\%UpArrow%,%1%\%Hand%
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+
+[Strings]
+SchemeName   	= Âﬂ¬ﬁ¿Â∆◊ Û±Í÷∏’Î
+Arrow       	= pointer.ani
+Help          	= help.ani
+AppStarting     = work.ani
+Wait          	= busy.ani
+Crosshair		= cross.ani
+IBeam			= text.ani
+NWPen          	= hand.ani
+No  			= unavailiable.ani
+SizeNS			= vert.ani
+SizeWE          = horz.ani
+SizeNWSE        = dgn1.ani
+SizeNESW        = dgn2.ani
+SizeALL         = move.ani
+UpArrow			= alternate.ani
+Hand	      	= link.ani
